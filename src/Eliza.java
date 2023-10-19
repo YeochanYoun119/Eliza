@@ -64,7 +64,7 @@ public class Eliza {
 				System.out.print(args[i] + ", ");
 			}
 			System.out.print("or " + args[args.length -1]);
-			System.out.print("?");
+			System.out.println("?");
 			name = sc.nextLine(); // set name to that user chose
 			name = name.trim();			
        }
