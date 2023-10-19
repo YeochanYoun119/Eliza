@@ -60,9 +60,10 @@ public class Eliza {
 		name = args[0]; // if setting another name 
 		}else {
 			System.out.print("Would you like to speak with ");
-			for (int i=0; i <= args.length -1; i++) {  // if there are more than one name
-				System.out.print(args[i] + ",");
+			for (int i=0; i <= args.length -2; i++) {  // if there are more than one name
+				System.out.print(args[i] + ", ");
 			}
+			System.out.print("or " + args[args.length -1]);
 			System.out.print("?");
 			name = sc.nextLine(); // set name to that user chose
 			name = name.trim();			
