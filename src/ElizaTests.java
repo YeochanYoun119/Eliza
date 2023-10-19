@@ -1,19 +1,5 @@
 //
-//TODO  file header comment////////////////////ALL ASSIGNMENTS INCLUDE THIS SECTION /////////////////////
-//
-//Title:           Eliza Tests
-//Files:           Eliza.java, Eliza Tests.java, Config.java
-//Course:          CS 200 Fall 2018
-//
-//Author:           Yeochan Youn
-//Email:            yyoun5@wisc.edu
-//Lecturer's Name:  Marc Renault 
-//
-///////////////////////////// CREDIT OUTSIDE HELP /////////////////////////////
-//NO help from other person
-/////////////////////////////// 80 COLUMNS WIDE ///////////////////////////////
-
-
+//TODO  file header comment
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
